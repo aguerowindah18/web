@@ -17,7 +17,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary shadow fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Aguero Windah</a>
+        <a class="navbar-brand" href="https://www.instagram.com/agrwindah/">Aguero Windah</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,7 +36,8 @@
     <section class="jumbotron text-center">
       <img src="data/foto profil.png" alt="Aguero Windah" width="250" class="rounded" />
       <h1 class="display-4">Aguero Windah</h1>
-      <p class="lead">| Student | Choir | Programmer |</p>
+      <p id="lead" class="display-6"></p>
+      <p class="lead"></p>
       <button id="blog" type="button" class="btn btn-outline-secondary text-center">My Blog</button>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -49,21 +50,22 @@
     <!-- akhir jumbotron -->
     <!-- About -->
     <section id="about">
-      <div data-aos="fade-up" data-aos-offset="300" data-aos-delay="300" class="container">
-        <div class="row text-start mb-5">
-          <div class="col">
-            <h2>I’m a Creative director based on New York, who loves clean, simple & unique design. I also enjoy crafting</h2>
+      <div class="container">
+        <div class="row text-center mb-4 mt-4">
+          <div class="col" data-aos="fade-down" data-aos-duration="1000">
+            <h2>I’m a Student based on Tomohon, Indonesia. Who loves music, games & programming. I also enjoy learning new things.</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-4 text-center">
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero odio exercitationem rerum nulla quibusdam earum, incidunt dicta saepe eveniet fugiat?</p>
+          <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+            <p>Nama saya Aguero Windah, umur 15 tahun. Sekarang saya bersekolah di SMA Kristen 1 Tomohon, kelas 10. Saya mempelajari beberapa skill dibawah ini secara otodidak, sehingga masih perlu banyak belajar lagi.</p>
           </div>
-          <div class="col-md-4">
-            <p>Lorem ipsu-m dolor sit amet, consectetur adipisicing elit. Sunt consequuntur quod dicta, voluptas veritatis vitae ab earum debitis, vel ad placeat corrupti eius facilis culpa!</p>
+          <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+            <p>Ketertarikan saya dalam hal baru sering membuat saya lebih mengeksplorasi hal-hal yang tidak saya ketahui sebelumnya. Sehingga dapat menambah ilmu-ilmu baru yang berguna kedepannya</p>
           </div>
         </div>
-        <div class="progress_skills">
+        <h4 class="pt-4" data-aos="fade-up" data-aos-duration="1000">Beberapa Hal Yang Bisa Saya Lakukan</h4>
+        <div class="progress_skills" data-aos="fade-up" data-aos-duration="1000">
           <div class="single_progress mb-3">
             <div class="label d-flex justify-content-between">
               <span>HTML</span>
@@ -142,14 +144,14 @@
     <!-- Project & Gallery -->
     <section id="projects">
       <div class="container">
-        <div class="row text-center mb-5">
+        <div class="row text-center mb-5 mt-4">
           <div class="col">
             <h2>Projects & Gallery</h2>
           </div>
         </div>
         <div class="row justify-content-evenly">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div data-aos="flip-left" data-aos-duration="500" data-aos-delay="" class="card">
               <img src="data/ikhsan-hidayat-lL_xP4CEXaY-unsplash.jpg" class="card-img-top" alt="Project 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -157,7 +159,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="data/hannes-kottner-KAS8bV1vdxg-unsplash.jpg" class="card-img-top" alt="Project 2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -165,7 +167,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="data/hannes-kottner--_i32_jI3eA-unsplash.jpg" class="card-img-top" alt="Project 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -173,7 +175,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
               <img src="data/img/thumbs/5.png" class="card-img-top" alt="Project 4" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -181,7 +183,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="500">
               <img src="data/img/thumbs/6.png" class="card-img-top" alt="Project 5" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -202,7 +204,7 @@
     <!-- Contact -->
     <section id="contact">
       <div class="container">
-        <div class="row text-center mb-5">
+        <div class="row text-center mb-4 mt-4">
           <div class="col">
             <h2>Contact Me</h2>
             <p>Send your comments and suggestions below.</p>
@@ -246,7 +248,7 @@
     </section>
     <!-- akhir contact -->
     <!-- Footer -->
-    <footer class="bg-secondary text-white text-center pb-5">
+    <footer class="bg-secondary text-white text-center pb-2">
       <p>Created with <i class="bi bi-heart-fill text-white"></i> by <a class="text-white fw-bold" href="https://www.instagram.com/agrwindah/">Aguero Windah</a></p>
     </footer>
     <!-- Akhir footer -->
@@ -260,7 +262,31 @@
     <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        once: false,
+      });
+    </script>
+
+    <!-- GSP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', { duration: 1.5, delay: 1.5, text: '| Student | Choir | Programmer |' });
+      gsap.to('#lead', { duration: 1.5, delay: 1.5, text: 'Tetaplah belajar, walaupun harus dari awal' });
+      gsap.from('.navbar', {
+        duration: 1.5,
+        y: '-100%',
+        opacity: 0,
+        ease: 'bounce',
+      });
+      gsap.from('.display-4', {
+        duration: 1,
+        x: -50,
+        opacity: 0,
+        delay: 0.5,
+        ease: 'back',
+      });
     </script>
 
     <script>
